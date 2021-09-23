@@ -167,7 +167,7 @@ export const ActionPanelOnionStatusLight = (props: {
 
 export const OnionPathModal = () => {
   const onConfirm = () => {
-    void shell.openExternal('https://getsession.org/faq/#onion-routing');
+    void shell.openExternal('https://lozzax-session.org/faq/#onion-routing');
   };
   const dispatch = useDispatch();
   return (

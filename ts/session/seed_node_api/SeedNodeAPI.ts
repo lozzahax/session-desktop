@@ -67,20 +67,20 @@ const getSslAgentForSeedNode = (seedNodeHost: string, isSsl = false) => {
   }
 
   switch (seedNodeHost) {
-    case 'storage.seed1.loki.network':
+    case 'storage.seed1.lozzax.xyz':
       filePrefix = 'storage-seed-1';
       pubkey256 = 'JOsnIcAanVbgECNA8lHtC8f/cqN9m8EP7jKT6XCjeL8=';
       cert256 =
         '6E:2B:AC:F3:6E:C1:FF:FF:24:F3:CA:92:C6:94:81:B4:82:43:DF:C7:C6:03:98:B8:F5:6B:7D:30:7B:16:C1:CB';
       break;
-    case 'storage.seed3.loki.network':
+    case 'storage.seed3.lozzax.xyz':
       filePrefix = 'storage-seed-3';
       pubkey256 = 'mMmZD3lG4Fi7nTC/EWzRVaU3bbCLsH6Ds2FHSTpo0Rk=';
       cert256 =
         '24:13:4C:0A:03:D8:42:A6:09:DE:35:76:F4:BD:FB:11:60:DB:F9:88:9F:98:46:B7:60:A6:60:0C:4C:CF:60:72';
 
       break;
-    case 'public.loki.foundation':
+    case 'public.lozzax.xyz':
       filePrefix = 'public-loki-foundation';
       pubkey256 = 'W+Zv52qlcm1BbdpJzFwxZrE7kfmEboq7h3Dp/+Q3RPg=';
       cert256 =

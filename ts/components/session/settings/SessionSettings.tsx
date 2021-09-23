@@ -244,7 +244,7 @@ class SettingsViewInner extends React.Component<SettingsViewProps, State> {
 
   public renderSessionInfo(): JSX.Element {
     const openOxenWebsite = () => {
-      void shell.openExternal('https://oxen.io/');
+      void shell.openExternal('https://lozzax.xyz/');
     };
     return (
       <div className="session-settings__version-info">
@@ -473,7 +473,7 @@ class SettingsViewInner extends React.Component<SettingsViewProps, State> {
         setFn: undefined,
         comparisonValue: undefined,
         onClick: () => {
-          void shell.openExternal('https://getsession.org/survey');
+          void shell.openExternal('https://lozax-session.org/survey');
         },
         content: {
           buttonText: window.i18n('goToOurSurvey'),

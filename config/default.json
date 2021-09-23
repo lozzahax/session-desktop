@@ -5,13 +5,13 @@
   "contentProxyUrl": "",
   "seedNodeList": [
     {
-      "url": "https://storage.seed1.loki.network:4433/"
+      "url": "https://storage.seed1.lozzax.xyz:4433/"
     },
     {
-      "url": "https://storage.seed3.loki.network:4433/"
+      "url": "https://storage.seed3.lozzax.xyz:4433/"
     },
     {
-      "url": "https://public.loki.foundation:4433/"
+      "url": "https://public.lozzax.xyz:4433/"
     }
   ],
   "updatesEnabled": false,
